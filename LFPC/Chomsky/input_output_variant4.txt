@@ -1,0 +1,144 @@
+Give number of rules 13
+Give initial state S
++------------------------------------------------------+
+|Give rules in the form A B (space-delimited), for A->B|
+|or A BCD, if more than one states in the right part   |
+|(without spaces between right part members).          |
++------------------------------------------------------+
+Rule #1S aB
+Rule #2S bA
+Rule #3S A
+Rule #4A B
+Rule #5A AS
+Rule #6A bBAB
+Rule #7A b
+Rule #8B b
+Rule #9B bS
+Rule #10B aD
+Rule #11B e
+Rule #12D AA
+Rule #13C Ba
+
+Rules after large rules removal
+A->B
+A->AS
+A->bE
+A->b
+C->Ba
+B->b
+B->bS
+B->aD
+B->e
+E->BF
+D->AA
+F->AB
+S->aB
+S->bA
+S->A
+
+Rules after empty rules removal
+A->B
+A->AS
+A->bE
+A->b
+C->Ba
+C->a
+B->b
+B->bS
+B->aD
+E->BF
+E->F
+D->AA
+F->AB
+F->A
+S->aB
+S->bA
+S->A
+S->a
+
+Rules after short rules removal
+A->AS
+A->bE
+A->AA
+A->Aa
+A->BS
+A->BA
+A->Ba
+A->bS
+A->bA
+A->ba
+A->bF
+C->Ba
+C->ba
+B->bS
+B->aD
+B->bA
+B->ba
+E->BF
+E->BA
+E->bF
+E->bA
+D->AA
+D->AB
+D->Ab
+D->BA
+D->BB
+D->Bb
+D->bA
+D->bB
+D->bb
+F->AB
+F->Ab
+F->BB
+F->Bb
+F->bB
+F->bb
+S->aB
+S->bA
+S->ab
+S->bB
+S->bb
+
+Final rules
+A->AS
+A->bE
+A->AA
+A->Aa
+A->BS
+A->BA
+A->Ba
+A->bS
+A->bA
+A->ba
+A->bF
+C->Ba
+C->ba
+B->bS
+B->aD
+B->bA
+B->ba
+E->BF
+E->BA
+E->bF
+E->bA
+D->AA
+D->AB
+D->Ab
+D->BA
+D->BB
+D->Bb
+D->bA
+D->bB
+D->bb
+F->AB
+F->Ab
+F->BB
+F->Bb
+F->bB
+F->bb
+S->aB
+S->bA
+S->ab
+S->bB
+S->bb
+
